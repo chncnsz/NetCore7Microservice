@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ethem.cansiz\\source\\repos\\IbtecMicroservice\\Services\\Photostock\\FreeCourse.Service.PhotostockAPI\\FreeCourse.Service.PhotostockAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ethem.cansiz\\source\\repos\\IbtecMicroservice\\Services\\Photostock\\FreeCourse.Service.PhotostockAPI\\FreeCourse.Service.PhotostockAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ethem.cansiz\\source\\repos\\IbtecMicroservice\\Services\\Photostock\\FreeCourse.Service.PhotostockAPI\\FreeCourse.Service.PhotostockAPI.csproj",
+        "projectName": "FreeCourse.Service.PhotostockAPI",
+        "projectPath": "C:\\Users\\Ethem.cansiz\\source\\repos\\IbtecMicroservice\\Services\\Photostock\\FreeCourse.Service.PhotostockAPI\\FreeCourse.Service.PhotostockAPI.csproj",
+        "packagesPath": "C:\\Users\\Ethem.cansiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ethem.cansiz\\source\\repos\\IbtecMicroservice\\Services\\Photostock\\FreeCourse.Service.PhotostockAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ethem.cansiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Ethem.cansiz\\source\\repos\\IbtecMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
+                "projectPath": "C:\\Users\\Ethem.cansiz\\source\\repos\\IbtecMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ethem.cansiz\\source\\repos\\IbtecMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ethem.cansiz\\source\\repos\\IbtecMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj",
+        "projectName": "FreeCourse.Shared",
+        "projectPath": "C:\\Users\\Ethem.cansiz\\source\\repos\\IbtecMicroservice\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj",
+        "packagesPath": "C:\\Users\\Ethem.cansiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ethem.cansiz\\source\\repos\\IbtecMicroservice\\Shared\\FreeCourse.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ethem.cansiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
