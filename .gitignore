@@ -120,6 +120,8 @@ Version.h
 Version.cpp
 */bin/*
 */obj/*
+*.AssemblyReference.cache
+
 
 # Chutzpah Test files
 _Chutzpah*
