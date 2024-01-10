@@ -120,7 +120,10 @@ Version.h
 Version.cpp
 */bin/*
 */obj/*
+*/obj/Debug/*
 *.AssemblyReference.cache
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
 
 
 # Chutzpah Test files
@@ -494,5 +497,3 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/```
-/Services/Catalog/FreeCourse.Services.CatalogAPI/obj/Debug/net7.0/FreeCourse.Services.CatalogAPI.csproj.AssemblyReference.cache
-/Services/Photostock/FreeCourse.Service.PhotostockAPI/obj/Debug/net7.0/FreeCourse.Service.PhotostockAPI.csproj.AssemblyReference.cache
