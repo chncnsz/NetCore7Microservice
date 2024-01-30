@@ -34,5 +34,6 @@ namespace FreeCourse.Services.Order.API.Controllers
             var response = await _mediator.Send(createOrderCommand);
             return CreateActionResultInstance(response);
         }
+
     }
 }
